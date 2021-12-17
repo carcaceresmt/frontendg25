@@ -1,10 +1,9 @@
-import Guardar from "./components/productocomponente/Guardar";
-import Mostrar from "./components/productocomponente/mostrar";
+import Menu from "./components/menu/Menu";
 
 function App() {
   return (
-      <div className="container">
-        <Mostrar></Mostrar>      
+      <div >
+        <Menu></Menu>
       </div>
   );
 }

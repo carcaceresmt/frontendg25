@@ -13,7 +13,7 @@ const Mostrar = () => {
        
     }, [])
     return (
-        <div>
+        <div className="container">
              <h1 className="text-center mt-5 mb-3">Lista de Productos</h1>
                             <table className="table table-striped text-center">
                                 <thead>

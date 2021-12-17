@@ -123,9 +123,9 @@ const Pedido = () => {
     }, [])
 
     return (
-        <div>
-            <div class="jumbotron">
-                <h1 class="text-center mt-5">Compra de Productos</h1>
+        <div className="container">
+            <div className="jumbotron">
+                <h1 className="text-center mt-5">Compra de Productos</h1>
                 <label>Codigo Pedido</label>
                 <input type="text" className="form-control" />
                 <label>Nombres</label>
